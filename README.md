@@ -5,11 +5,9 @@ Electrics is a modern, responsive e-commerce website built for selling electroni
 ✨ Key Features
 🛒 Product listing with images, names, prices, and categories
 
-🔍 Search and filter functionality for easy navigation
+ Search and filter functionality for easy navigation
 
-🖼️ Product details view
-
-📱 Responsive design for mobile and desktop
+ Product details view
 
 🎨 Built with HTML, CSS, and JavaScript
 
