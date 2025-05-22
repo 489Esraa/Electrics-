@@ -1,0 +1,93 @@
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.9;
+    overflow-x: hidden;
+      background-color: white;
+      font-family: 'Poppins', sans-serif;
+      color: var(--text-color);
+      scroll-behavior: smooth;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-content {
+    flex: 1;
+    min-width: 500px;
+    text-align: left;
+
+}
+
+ h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+    position: relative;
+    display: inline;
+     text-align:center ;
+     left: 300px;
+}
+
+ h3::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #0077b6;
+    bottom: -10px;
+    left: 0;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.read-more-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid #0077b6;
+}
+
+.read-more-btn:hover {
+    background-color: transparent;
+    color: #0077b6;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+    }
+    
+    .about-image, .about-content {
+        min-width: 100%;
+    }
+}

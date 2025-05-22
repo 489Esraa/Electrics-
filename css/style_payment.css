@@ -1,0 +1,73 @@
+/* تأكيد تنسيق الحاوية الرئيسية */
+.payment-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.order-summary {
+    background-color: #e9e9e9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.order-summary p {
+    margin: 5px 0;
+}
+
+.payment-method form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-method label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.payment-method select,
+.payment-method input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment-method .payment-details {
+    margin-bottom: 20px;
+}
+
+.payment-method .credit-card-details,
+.payment-method .paypal-details,
+.payment-method .bank-transfer-details {
+    display: none;
+}
+
+.payment-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.payment-btn:hover {
+    background-color: #45a049;
+}
+.payment-logo {
+    width: 120px;
+    margin: 20px 0;
+}
+
